@@ -1,0 +1,126 @@
+/*左侧导航栏内容样式*/
+#nav {
+	width: 136px;
+	height: 100%;
+	position: absolute;
+	background-color: #282D33;
+	color:#494C50;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#nav .logo {
+	margin-top: 25px;
+	margin-left: 40px;
+}
+
+#nav>ul {
+	margin-top: 20px;
+}
+
+#nav>ul li {
+	height: 65px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 40px;
+}
+
+#nav>ul li span {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+#nav>ul li.icon-attack_m {
+	background: url(../images/attack_m.png) no-repeat center 10px;
+}
+
+#nav>ul li.icon-attack_m_a {
+	background: url(../images/attack_m_a.png) no-repeat center 10px;
+}
+
+#nav>ul li.icon-task_m {
+	background: url(../images/task_m.png) no-repeat center 10px;
+}
+
+#nav>ul li.icon-task_m_a {
+	background: url(../images/task_m_a.png) no-repeat center 10px;
+}
+
+#nav>ul li.icon-web_c {
+	background: url(../images/web_c.png) no-repeat center 10px;
+}
+
+#nav>ul li.icon-web_c_a {
+	background: url(../images/web_c_a.png) no-repeat center 10px;
+}
+
+#nav>ul li.icon-userInfo_s {
+	background: url(../images/userInfo_s.png) no-repeat center 10px;
+}
+
+#nav>ul li.icon-userInfo_s_a {
+	background: url(../images/userInfo_s_a.png) no-repeat center 10px;
+}
+
+#nav>ul li.active {
+	color: #6C96F9;
+	border-left: 3px solid #6C96F9;
+}
+
+#nav div.on_off {
+	margin-top: 260px;
+}
+
+#nav div i {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#nav div.on_off .icon-shutdown {
+	width: 32px;
+	height: 29px;
+	background: url(../images/shutdown.png);
+}
+
+#nav div.on_off .icon-restart {
+	width: 35px;
+	height: 35px;
+	background: url(../images/restart.png);
+}
+
+#nav div.on_off .icon-log_out {
+	width: 33px;
+	height: 37px;
+	margin: 14px 50px 5px 50px;
+	background: url(../images/log_out.png);
+}
+
+#nav div.on_off>div:first-child,
+#nav div.on_off>div:nth-child(2) {
+	display: inline-block;
+	text-align: center;
+	margin-left: 13px;
+	height: 85px;
+}
+
+#nav div.on_off>div:first-child {
+	border-right: 2px solid #394049;
+	padding-right: 20px;
+}
+
+#nav div.on_off>div:last-child {
+	display: block;
+	background-color: #2E3339;
+	height: 80px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+body>div {
+/*	float: left;*/
+	margin-left: 136px;
+	color: #000;
+	font-size: 28px;
+}
